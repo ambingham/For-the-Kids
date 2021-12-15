@@ -9,13 +9,14 @@ def main():
         print("")
         print("Hello, " + name +", it is wonderful to chat with you!")
         print("")
-        day_input()
+        day_input(name)
+        homework_input(name)
 
-    def day_input():
-        day=input("How was your day? Good or Bad? ")
+    def day_input(hoot):
+        day=input("How was your day, " + hoot + "? Good or Bad? ")
         if day=='Good' or day=='good':
             print("")
-            print("I am very glad to hear that.")
+            print("I am very glad to hear that " + hoot ".")
             print("")
             homework_input()
         elif day=='Bad' or day=='bad':
