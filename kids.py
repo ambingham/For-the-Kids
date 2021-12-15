@@ -30,7 +30,7 @@ def main():
             print("")
             day_input()
 
-    def homework_input():
+    def homework_input(fred):
         homework=input("Do you have any homework to complete? ")
         if homework=="Yes" or homework=="yes":
             print("")
